@@ -1,0 +1,41 @@
+Download of MAC OS // internet archive gives us all versioin of mac os
+download the auto unlocker from github //allows vm ware to run macos
+extract the zip file of unlocker and run as administrator and patch it
+start the VM ware and create a new virtual machine
+pop up window will show in that select ..i will install operating system later
+select operating system and version of iso
+give a name to iso
+allocate space upto 100 gb
+customize hardware= 4gb RAM ,2 processor cores,In CD/DVD select iso image option and browse our downloaded iso
+close the window and hit the finish button
+close the VM ware 
+Open the file manager
+follow the path=local disk C>user>username>Documents>virtual machine>mac os>edit VM configuration file //open with notepad and add some lines and he end
+[ smbios.reflectHost = "TRUE"
+hw.model = "MacBookPro14,3"
+board-id = "Mac-551B86E5744E2369"
+smc.version = "0"] //save the file
+Power on the virtual machine
+select language 
+select the disk uility 
+select the first disk ,Erase it ,give a name and format the disk //close after formatting disk
+open the Install MAC OS option:=
+1.Agree the option
+2.select the disk and hit continue option // it may take few minutes 
+3. select the region and hit continue
+4. select the not now option in Migration Assistant window
+5. fill the details 
+6. Agree the condtions 
+7.Enter the username and password
+8. select option 'set up later' in icloud keychain window and hit continue button 
+9. select option 'set up later' in screen time  window and hit continue button 
+10.disable the siri option from siri window and hit continue button
+MAC OS will start running properly....
+
+
+
+
+
+
+
+
